@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Seatwork</title>
+</head>
+<body>
+    <div id="div1" style="color:rgb(1, 65, 36); font-size: 35px; background-color: cadetblue; padding: 40px; margin: 80px;">
+
+    <h1>Find out the following Countries Nickname!!!</h1><br> 
+        <h3>Pick a Country</h3>
+         <select id="country"> # selections of items
+            <option value="0">Philippines</option>
+            <option value="1">Japan</option>
+            <option value="2">South Korea</option>
+            <option value="3">North Korea</option>
+            <option value="4">Thailand</option>
+            <option value="5">Taiwan</option>
+            <option value="6">Hong Kong</option>
+            <option value="7">Indonesia</option>
+
+        </select><br><br>
+        <button py-click="show_nick">Nickname</button>
+    </div>
+    
+    <div id="result" style="color:rgb(1, 65, 36); font-size: 35px; background-color: cadetblue; padding: 40px; margin: 80px;"></div> 
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>
